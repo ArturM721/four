@@ -418,6 +418,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .akita2,
@@ -439,9 +441,9 @@ html {
   font-family: "Gotham-Book";
   font-size: 15px;
   line-height: 24px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
 }
 
 .akita__text1 {
@@ -465,6 +467,13 @@ html {
 
 .three {
   margin: 0px 0px 40px 0px;
+}
+
+.akita__img1,
+.akita__img2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 100%;
+          flex: 0 1 100%;
 }
 
 .akita__img1 {
