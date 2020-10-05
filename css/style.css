@@ -728,7 +728,7 @@ html {
 }
 
 .message__row {
-  background-image: url("../img/c.png");
+  background-image: url("../img/C.png");
   background-repeat: no-repeat;
   background-position: 50% 145px;
   padding: 220px 0px 100px 20px;
@@ -1288,6 +1288,6 @@ button {
 
 .webp .content__message{ background-image: url(../img/fon7.webp); }
 
-.webp .message__row{ background-image: url(../img/c.webp); }
+.webp .message__row{ background-image: url(../img/C.webp); }
 
 .webp .content__map{ background-image: url(../img/fon8.webp); }
